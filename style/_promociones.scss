@@ -1,0 +1,16 @@
+.infoUno, .infoDos{
+    color: rgb(51, 1, 1);
+    font-size:medium ;
+    margin: 146px 307px 380px 11px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(218, 192, 214);
+    border: 5px  rgb(15, 14, 15) solid;
+    &hover{
+        transform: scale(1.5);
+        transition-property: all ;
+        transition-duration: 2s;
+    }
+     }
+    
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital@1&family=Orelega+One&display=swap');
+ @import "generales";
+@import "index";
+@import "sistemacctb";
+@import"variables";
+@import "promociones";
+
+
+
+
+
+
+      /* selector-propiedad- valor */
+
+
+
+              /* SASS 1 --anidamiento*/
+ 
+
+ 
+ .promoCiones{
+  background-image: url("../img/logofondonegro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1500px;
+
+ }
+
+ .bodyalarmas{
+          background-image: url("../img/logofondonegro.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 1200px;
+          }
+          
+        
+  .seguridadUno{
+          padding: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 50px;
+          color: rgb(16, 193, 177);
+          background-color: black;
+          font-family: sans-serif;
+          font-size: xx-large;
+          font-style: italic;
+          border: 3px rgb(196, 86, 141) double;
+                }        
+   .hogar {
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 50px;
+  color: rgb(16, 193, 177);
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-style: italic;
+  border: 3px rgb(196, 86, 141) double;
+        }            
+ 
+ 
+ .alarmasBody{
+   background-image: url(../img/logofondonegro.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1100px;
+   }
+   .footerAlarmas{
+     margin-top: 746px;
+   }
+   .formulariodeContacto{
+     margin:  10px 390px 10px 390px;
+   }
+   
+  
+
+
+
+
+ 
+
+  
+  
+
+@media (min-width: 768px) and (max-width: 1199px){
+  h1{
+    font-size: 20px;
+    border: 8px double rgb(92, 91, 91);
+    
+  }
+  .index{
+margin-right:-179px;
+  }
+  .header{
+    padding: 5px;
+  }
+  h3, h4, h5{
+    padding: 7px;
+    margin-bottom: 29px;
+    margin-right: 245px;
+    margin-left: 300px;
+  }
+  iframe{
+    margin-bottom: 29px;
+    margin-right: 245px;
+    margin-left: 133px;
+    }
+.padre{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "galeria"
+  "footer";
+  gap: 5px;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr ;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  }
+.seguridadUno{
+  padding: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.hogar{
+  padding: 90px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.barraindex{
+  margin-right: -179px;
+ 
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+}
+.footmedia{
+  margin-top: 894px;
+ }
+ }
+ 
