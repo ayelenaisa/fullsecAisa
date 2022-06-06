@@ -5,8 +5,7 @@
   border: 0;
 }
 
-*
-h1 {
+* h1 {
   padding: 1px;
   margin: 64px 5px 10px;
   color: #0f060c;
@@ -65,7 +64,7 @@ h5 {
 }
 
 .footer {
-  padding: 30px;
+  padding: 250px;
   height: 26px;
   margin-top: auto;
   margin-right: auto;
@@ -76,6 +75,13 @@ h5 {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: 11px #5c184b double;
+}
+
+.principal {
+  background-image: url(../img/logofondonegro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1388px;
 }
 
 .clientesNuestros {
@@ -128,7 +134,9 @@ iframe {
       grid-template-columns: 1fr 1fr 1fr  1fr;
   -ms-grid-rows: 1fr 1fr 1fr  1fr;
       grid-template-rows: 1fr 1fr 1fr  1fr;
-      grid-template-areas: "header header header header" "galeria galeria galeria galeria " "footer footer footer footer ";
+      grid-template-areas: "header header header header"
+ "galeria galeria galeria galeria "
+ "footer footer footer footer ";
   margin-top: 0px;
   margin-bottom: -221px;
 }
@@ -235,6 +243,38 @@ img {
           transition-duration: 2s;
 }
 
+/*mapas*/
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--facebook {
+  background-color: #00277c;
+}
+
+.btn--instagram {
+  background-color: #eb723b;
+}
+
+.redSocial, .redsocial--full, .redsocial--electronica {
+  border: 20px solid rgb(11, 70, 65);
+  
+}
+
+.redsocial--full {
+  border-radius: 5px;
+}
+
+.redsocial--electronica {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+.redsocial--social {
+  background-color: aliceblue;
+}
+
+/*mixing*/
 /* selector-propiedad- valor */
 /* SASS 1 --anidamiento*/
 .promoCiones {
@@ -294,71 +334,69 @@ img {
   margin: 10px 390px 10px 390px;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  h1 {
+/*
+
+@media 
+ {
+  h1{
     font-size: 20px;
-    border: 8px double #5c5b5b;
+    border: 8px double rgb(92, 91, 91);
+    
   }
-  .index {
-    margin-right: -179px;
+  .index{
+margin-right:-179px;
   }
-  .header {
+  .header{
     padding: 5px;
   }
-  h3, h4, h5 {
+  h3, h4, h5{
     padding: 7px;
     margin-bottom: 29px;
     margin-right: 245px;
     margin-left: 300px;
   }
-  iframe {
+  iframe{
     margin-bottom: 29px;
     margin-right: 245px;
     margin-left: 133px;
+    }
+.padre{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "galeria"
+  "footer";
+  gap: 5px;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr ;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
   }
-  .padre {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "header" "galeria" "footer";
-    gap: 5px;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 120px;
-  }
-  .seguridadUno {
-    padding: 30px;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  .hogar {
-    padding: 90px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-  }
-  .barraindex {
-    margin-right: -179px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-  }
-  .footmedia {
-    margin-top: 894px;
-  }
+.seguridadUno{
+  padding: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
+.hogar{
+  padding: 90px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.barraindex{
+  margin-right: -179px;
+ 
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+}
+.footmedia{
+  margin-top: 894px;
+ }
+ }
+@media screen {
+  
+}
+*/
 /*# sourceMappingURL=estyle.css.map */

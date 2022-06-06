@@ -1,0 +1,43 @@
+/*mapas*/
+
+$redes:(
+    twitter: #55acee,
+    facebook: #00277c,
+    instagram: #eb723b,
+      ); 
+
+      @each $red, $color in $redes {
+          .btn--#{$red}{
+            background-color: $color;
+            }
+         }
+    
+       
+       .redSocial{
+            border: 10px solid #ff008f;
+            margin: 3px 62px 43px -350px;
+            padding: 21px;
+            
+                 }
+     .redsocial--full{
+         @extend .redSocial;
+         border-radius: 5px double rgb(8, 92, 74);
+     }
+     .redsocial--electronica{
+         @extend.redSocial;
+         font-family: 'Courier New', Courier, monospace;
+         font-size: small;
+     }
+     .redsocial--social{
+         background-color: aliceblue;
+     }
+     /*mixing*/
+     
+     @mixin sizes ($width, $height){
+         height: $height;
+         width: $width;
+     }
+.my_mixin{
+    @include sices(1500, 50px);
+    background-color: blue;
+}
