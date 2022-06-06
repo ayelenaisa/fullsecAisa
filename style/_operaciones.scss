@@ -9,27 +9,37 @@ $redes:(
       @each $red, $color in $redes {
           .btn--#{$red}{
             background-color: $color;
+            padding:10px;
+            margin: 5px 10px 5px 10px;
+            display:flex;
+            display: ruby-base-container; 
             }
          }
     
        
        .redSocial{
-            border: 10px solid #ff008f;
-            margin: 3px 62px 43px -350px;
-            padding: 21px;
+            border: 10px solid #7e124f;
+                                  }
             
-                 }
+                
      .redsocial--full{
          @extend .redSocial;
          border-radius: 5px double rgb(8, 92, 74);
-     }
+         margin: -222px 144px 37px 176px;
+         padding: 13px;
+        }
      .redsocial--electronica{
          @extend.redSocial;
          font-family: 'Courier New', Courier, monospace;
          font-size: small;
+         border-radius: 5px double rgb(8, 92, 74);
+         margin: 18px 144px 37px 176px;
+         padding: 13px;
      }
      .redsocial--social{
-         background-color: aliceblue;
+        background-color: aliceblue;
+        padding: 7px;
+        margin: 11px 260px 35px 260px;
      }
      /*mixing*/
      
@@ -38,6 +48,6 @@ $redes:(
          width: $width;
      }
 .my_mixin{
-    @include sices(1500, 50px);
+    @include sices(500px, 50px);
     background-color: blue;
 }

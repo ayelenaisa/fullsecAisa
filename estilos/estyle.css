@@ -246,32 +246,52 @@ img {
 /*mapas*/
 .btn--twitter {
   background-color: #55acee;
+  padding:10px;
+  margin: 5px 10px 5px 10px;
+  display:flex;
+  display: ruby-base-container;
 }
 
 .btn--facebook {
+
   background-color: #00277c;
-}
+  padding:10px;
+  margin: 5px 10px 5px 10px;
+  display:flex;
+  display: ruby-base-container;}
 
 .btn--instagram {
+
   background-color: #eb723b;
+  padding:10px;
+  margin: 5px 10px 5px 10px;
+  display:flex;
+  display: ruby-base-container;
 }
 
 .redSocial, .redsocial--full, .redsocial--electronica {
-  border: 20px solid rgb(11, 70, 65);
-  
+  border: 5px solid rgb(11, 70, 65);
+  margin: -222px 144px 37px 176px;
+  padding: 13px;
 }
 
 .redsocial--full {
   border-radius: 5px;
+  margin: -222px 144px 37px 176px;
+  padding: 13px;
 }
 
 .redsocial--electronica {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
+  margin: 18px 144px 37px 176px;
+  padding: 13px;
 }
 
 .redsocial--social {
   background-color: aliceblue;
+  padding: 7px;
+margin: 11px 260px 35px 260px;
 }
 
 /*mixing*/
