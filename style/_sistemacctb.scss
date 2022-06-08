@@ -1,5 +1,5 @@
 
-.sistemaAlarmas{
+.productos{
     padding: 1px;
     margin: 64px 5px 10px;
     color: rgb(15, 6, 12);
@@ -35,29 +35,30 @@
       .galeria-grid{
         grid-area:  galeria;
         background-image: url(../img/logofullsecurity.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 1194px;
-        width: 1346px;
-        margin-left: 5px;
-        margin-bottom: 7px;
-        margin-top: 276px;
-        } 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1203px;
+  width: 1335px;
+  margin-left: 1px;
+  margin-bottom: 18px;
+  margin-top: 255px;
+}
+        
       .footer{
         grid-area: footer;
       
       }
         
-      .padre{
+     .padre {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        grid-template-rows: 1fr 1fr  1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         height: 1170px;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 195px;
-         height: 1170px;
-        margin: 10px auto  ;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        height: 1146px;
+        margin: 10px auto;
         width: 67%;
       }
        
@@ -84,9 +85,9 @@
        font-size:large;
        margin: auto;
       }
-      .imaGenes{
+      .imaGenes {
         border: grey solid 10px;
-        width: 346px;
-        height: 396px;
-        margin-left: -131px;
-      }
+        width: 330px;
+        height: 381px;
+        margin-left: 20px;
+        background: #80808085;}

@@ -62,7 +62,7 @@ ul{
         display:contents;
        }*/
 
-   h1, .sistemaAlarmas{
+   h1, .productos,.sistemaAlarmas{
       padding: 1px;
       margin: 64px 5px 10px;
       color: rgb(146, 8, 100);
@@ -247,8 +247,8 @@ border: 5px dotted rgb(128, 128, 128);
   
 .padre{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr  1fr;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr  ;
   height: 1170px;
   justify-content: space-between;
   align-items: baseline;
@@ -285,85 +285,20 @@ text-align:justify  ;
   border: grey solid 10px;
   width: 346px;
   height: 396px;
-  margin-left: -131px;
-}
+  margin-left: -131px;}
 
-@media (min-width: 768px) and (max-width: 1199px){
-  h1{
-    font-size: 20px;
-    border: 8px double rgb(92, 91, 91);
-    
-  }
-  .index{
-margin-right:-179px;
-  }
-  .header{
-    padding: 5px;
-  }
-  h3, h4, h5{
-    padding: 7px;
-    margin-bottom: 29px;
-    margin-right: 245px;
-    margin-left: 300px;
-  }
-  iframe{
-    margin-bottom: 29px;
-    margin-right: 245px;
-    margin-left: 133px;
-    }
-.padre{
-  display: grid;
-  grid-template-areas: 
-  "header"
-  "galeria"
-  "footer";
-  gap: 5px;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 1fr ;
-  align-items: center;
-  justify-content: center;
-  margin-left: 120px;
-  }
-.seguridadUno{
-  padding: 30px;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-.hogar{
-  padding: 90px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-.barraindex{
-  margin-right: -179px;
- 
-  display: flex;
- flex-direction: column;
- justify-content: center;
- text-align: center;
-}
-.footmedia{
-  margin-top: 894px;
- }
- }
- 
- .infoUno, .infoDos{
-  color: rgb(51, 1, 1);
-  font-size:medium ;
-  margin: 146px 307px 380px 11px;
-  padding: 20px;
+
+ /* .footmedia{
+    padding: 34px;
+  height: 34px;
+  margin-top: 597px;
+  margin-right: 0;
+  margin-left: auto;
+  color: rgb(243, 246, 246);
+  background-color: rgb(6, 13, 13);
+  letter-spacing: 3px;
   text-align: center;
-  background-color: rgb(218, 192, 214);
-  border: 5px  rgb(15, 14, 15) solid;
-  
-   }
-   .infoUno:hover{
-    transform: scale(1.5);
-    transition-property: all ;
-    transition-duration: 2s;
-    }
-.infoDos:hover{
-  transform: scale(1.5);
-    transition-property: all ;
-    transition-duration: 2s;
-}
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 11px rgb(22, 128, 153) double;
+  }*/
+    

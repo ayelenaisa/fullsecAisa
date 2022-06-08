@@ -5,7 +5,8 @@
   border: 0;
 }
 
-* h1 {
+*
+h1 {
   padding: 1px;
   margin: 64px 5px 10px;
   color: #0f060c;
@@ -105,7 +106,7 @@ iframe {
   border: 5px dotted gray;
 }
 
-.sistemaAlarmas {
+.productos {
   padding: 1px;
   margin: 64px 5px 10px;
   color: #0f060c;
@@ -246,55 +247,61 @@ img {
 /*mapas*/
 .btn--twitter {
   background-color: #55acee;
-  padding:10px;
+  padding: 10px 15px 10px 15px;
   margin: 5px 10px 5px 10px;
-  display:flex;
-  display: ruby-base-container;
+  display: inline-block;
 }
 
 .btn--facebook {
-
   background-color: #00277c;
-  padding:10px;
+  padding: 10px 15px 10px 15px;
   margin: 5px 10px 5px 10px;
-  display:flex;
-  display: ruby-base-container;}
+  display: inline-block;
+}
 
 .btn--instagram {
-
   background-color: #eb723b;
-  padding:10px;
+  padding: 10px 15px 10px 15px;
   margin: 5px 10px 5px 10px;
-  display:flex;
-  display: ruby-base-container;
+  display: inline-block;
 }
 
-.redSocial, .redsocial--full, .redsocial--electronica {
-  border: 5px solid rgb(11, 70, 65);
-  margin: -222px 144px 37px 176px;
-  padding: 13px;
-}
-
-.redsocial--full {
-  border-radius: 5px;
-  margin: -222px 144px 37px 176px;
-  padding: 13px;
-}
-
-.redsocial--electronica {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-  margin: 18px 144px 37px 176px;
-  padding: 13px;
-}
-
-.redsocial--social {
-  background-color: aliceblue;
-  padding: 7px;
-margin: 11px 260px 35px 260px;
-}
-
-/*mixing*/
+/*
+       
+       .redSocial{
+            border: 10px solid #7e124f;
+                                  }
+            
+                
+     .redsocial--full{
+         @extend .redSocial;
+         border-radius: 5px double rgb(8, 92, 74);
+         margin: -222px 144px 37px 176px;
+         padding: 13px;
+        }
+     .redsocial--electronica{
+         @extend.redSocial;
+         font-family: 'Courier New', Courier, monospace;
+         font-size: small;
+         border-radius: 5px double rgb(8, 92, 74);
+         margin: 18px 144px 37px 176px;
+         padding: 13px;
+     }
+     .redsocial--social{
+        background-color: aliceblue;
+        padding: 7px;
+        margin: 11px 260px 35px 260px;
+     }
+     /*mixing*/
+/*  
+     @mixin sizes ($width, $height){
+         height: $height;
+         width: $width;
+     }
+.my_mixin{
+    @include sices(500px, 50px);
+    background-color: blue;
+}*/
 /* selector-propiedad- valor */
 /* SASS 1 --anidamiento*/
 .promoCiones {
@@ -353,70 +360,10 @@ margin: 11px 260px 35px 260px;
 .formulariodeContacto {
   margin: 10px 390px 10px 390px;
 }
-
-/*
-
-@media 
- {
-  h1{
-    font-size: 20px;
-    border: 8px double rgb(92, 91, 91);
-    
+@media (max-width: 768px)
+{
+  .clientesNuestros{
+    margin: 66px, 3px 11px 8px;
   }
-  .index{
-margin-right:-179px;
-  }
-  .header{
-    padding: 5px;
-  }
-  h3, h4, h5{
-    padding: 7px;
-    margin-bottom: 29px;
-    margin-right: 245px;
-    margin-left: 300px;
-  }
-  iframe{
-    margin-bottom: 29px;
-    margin-right: 245px;
-    margin-left: 133px;
-    }
-.padre{
-  display: grid;
-  grid-template-areas: 
-  "header"
-  "galeria"
-  "footer";
-  gap: 5px;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 1fr ;
-  align-items: center;
-  justify-content: center;
-  margin-left: 120px;
-  }
-.seguridadUno{
-  padding: 30px;
-  margin-left: 2px;
-  margin-right: 2px;
 }
-.hogar{
-  padding: 90px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-.barraindex{
-  margin-right: -179px;
- 
-  display: flex;
- flex-direction: column;
- justify-content: center;
- text-align: center;
-}
-.footmedia{
-  margin-top: 894px;
- }
- }
-@media screen {
-  
-}
-*/
 /*# sourceMappingURL=estyle.css.map */
